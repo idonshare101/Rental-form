@@ -1,0 +1,51 @@
+<label for="internet">Internet</label><br><br>
+
+            <label for="tenant-maintenance">Tenant Responsible for Maintenance?</label>
+            <input type="radio" id="yes" name="tenantMaintenance" value="yes" required>
+            <label for="yes">Yes</label>
+
+            <input type="radio" id="no" name="tenantMaintenance" value="no" required>
+            <label for="no">No</label><br><br>
+        </fieldset>
+
+        <!-- Rules and Regulations -->
+        <fieldset>
+            <legend>Rules and Regulations</legend>
+
+            <label for="pets">Are Pets Allowed?</label>
+            <select id="pets" name="petsAllowed" required>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select><br><br>
+
+            <label for="smoking">Is Smoking Allowed?</label>
+            <select id="smoking" name="smokingAllowed" required>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select><br><br>
+
+            <label for="alterations">Tenant Can Make Alterations to Property?</label>
+            <select id="alterations" name="alterationsAllowed" required>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select><br><br>
+        </fieldset>
+
+        <!-- Signatures -->
+        <fieldset>
+            <legend>Signatures</legend>
+
+            <label for="landlord-signature">Landlord Signature:</label>
+            <input type="text" id="landlord-signature" name="landlordSignature" required><br><br>
+
+            <label for="tenant-signature">Tenant Signature:</label>
+            <input type="text" id="tenant-signature" name="tenantSignature" required><br><br>
+
+            <label for="date-signed">Date Signed:</label>
+            <input type="date" id="date-signed" name="dateSigned" required><br><br>
+        </fieldset>
+
+        <button type="submit">Submit Rental Agreement</button>
+    </form>
+</body>
+</html>
